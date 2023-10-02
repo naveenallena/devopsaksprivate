@@ -1,7 +1,7 @@
 name: $(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)
 
-# trigger: 
-# pr: none
+trigger: none
+pr: none
 
 variables:
 - group: global-variables
